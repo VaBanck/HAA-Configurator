@@ -8,7 +8,7 @@
         <b-numberinput v-model="value.l" min="0" max="1024" controls-position="compact" />
         <b-button @click="()=>Remove('l')">remove</b-button>
       </b-field>
-      <b-button v-else @click="()=>Add('l',[13])">Add</b-button>
+      <b-button v-else @click="()=>Add('l',13)">Add</b-button>
     </b-field>
 
     <b-field v-if="value.l" label="Inverted LED" horizontal>
