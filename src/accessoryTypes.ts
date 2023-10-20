@@ -1,7 +1,7 @@
 export const types = [
   {
     id: 1,
-    name: 'Выключатель'
+    name: 'ggh'
   },
   {
     id: 2,
