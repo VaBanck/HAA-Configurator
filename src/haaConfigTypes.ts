@@ -7,7 +7,7 @@ export interface generalConfig {
   /**
    * status LED pin
    */
-  l?: number;
+  l?: Array<number>;
 
   /**
    * [0-default,1] status LED inverted
