@@ -12,16 +12,7 @@ export const configurations = [
     title: 'Sonoff Standard Switch',
     description: 'Sonoff Basic/SV/Mini/TH/POW Standard Switch',
 
-    config: {
-      c: { l: 13, b: [{ g: 0, t: 5 }] },
-      a: [
-        {
-          '0': { r: [{ g: 12 }] },
-          '1': { r: [{ g: 12, v: 1 }] },
-          b: [{ g: 0 }]
-        }
-      ]
-    }
+    config: {"c":{"io":[[[14,12,13],7],[[4],7,0,0,2]]},"a":[{"t":30,"g":[14,12,13,4],"fa":[1,1,1,4],"mp":0.85}]}
   },
 
   {
